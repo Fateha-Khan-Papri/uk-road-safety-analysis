@@ -1,0 +1,43 @@
+-- Load Collisions data
+COPY collisions ( 
+    collision_index, collision_year, collision_ref_no, 
+    location_easting_osgr, location_northing_osgr, 
+    longitude, latitude, police_force, collision_severity, 
+    number_of_vehicles, number_of_casualties, 
+    collision_date, day_of_week, collision_time, 
+    local_authority_district, local_authority_ons_district, 
+    local_authority_highway, local_authority_highway_current, 
+    first_road_class, first_road_number, road_type, speed_limit, 
+    junction_detail_historic, junction_detail, junction_control, 
+    second_road_class, second_road_number, 
+    pedestrian_crossing_human_control_historic, 
+    pedestrian_crossing_physical_facilities_historic, 
+    pedestrian_crossing, light_conditions, weather_conditions, 
+    road_surface_conditions, special_conditions_at_site, 
+    carriageway_hazards_historic, carriageway_hazards, 
+    urban_or_rural_area, 
+    did_police_officer_attend_scene_of_accident, 
+    trunk_road_flag, lsoa_of_accident_location, 
+    enhanced_severity_collision, collision_injury_based, 
+    collision_adjusted_severity_serious, 
+    collision_adjusted_severity_slight 
+) 
+FROM 'C:/road_safety_data/dft-road-casualty-statistics-collision-last-5-years.csv' 
+DELIMITER ',' CSV HEADER; 
+
+
+--Load vehicles 
+
+COPY vehicles 
+FROM 'C:/road_safety_data/dft-road-casualty-statistics-vehicle-last-5-years.csv' 
+DELIMITER ',' CSV HEADER; 
+
+
+--Load casualties 
+
+COPY casualties 
+FROM 'C:/road_safety_data/dft-road-casualty-statistics-casualty-last-5-years.csv' 
+DELIMITER ',' CSV HEADER; 
+ 
+
+ 
