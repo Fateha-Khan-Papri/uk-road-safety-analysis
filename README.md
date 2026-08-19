@@ -30,7 +30,7 @@ and urban vs rural location.
 
 - Source: https://www.gov.uk/government/statistical-data-sets/road-safety-open-data
 - 503,410 collision records across 3 linked tables
-- 5 years of data: 2019-2024
+- 5 years of data: 2020-2024
 - Tables: collisions, vehicles, casualties
 
 ---
