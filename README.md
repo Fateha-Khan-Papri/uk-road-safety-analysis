@@ -47,19 +47,19 @@ and urban vs rural location.
 
 ## Dashboard
 
-[▶ Download Interactive Dashboard (.pbix)](https://drive.google.com/file/d/1rzTM3mprlELC9QmbTgwGNjaNbZycqrrQ/view?usp=sharing)
+[▶ Download Interactive Dashboard (.pbix)]https://drive.google.com/file/d/1rzTM3mprlELC9QmbTgwGNjaNbZycqrrQ/view?usp=sharing
 
 Open in Power BI Desktop to interact with full dashboard
 including slicers and filters.
 
 ### Overview
-![Overview](overview.png)
+![Overview](screenshots/overview.png)
 
 ### Time & Conditions
-![Time and Conditions](time_conditions.png)
+![Time and Conditions](screenshots/time_conditions.png)
 
 ### Location & Roads
-![Location and Roads](location_roads.png)
+![Location and Roads](screenshots/location_roads.png)
 
 ---
 
