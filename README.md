@@ -39,7 +39,7 @@ and urban vs rural location.
 
 - 🕓 Peak collision hour is 5pm (44,000 collisions) but deadliest hour is 4am (4.28% fatal rate)
 - 🌙 Dark unlit roads have 4.9% fatal rate — highest of all lighting conditions
-- 🛣️ Single carriageway roads account for 365,844 collisions — 72% of all collisions
+- 🛣️ Single carriageway roads account for 365,795 collisions — 72% of all collisions
 - 🏡 Rural roads have 2.9% fatal rate vs Urban 0.8% despite far lower traffic volume
 - ⚠️ Fatal collisions represent only 1.49% of total but concentrated in specific conditions
 
